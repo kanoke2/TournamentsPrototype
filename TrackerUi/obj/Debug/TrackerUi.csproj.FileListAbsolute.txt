@@ -1,0 +1,13 @@
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\bin\Debug\TrackerUi.exe.config
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\bin\Debug\TrackerUi.exe
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\bin\Debug\TrackerUi.pdb
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.csprojAssemblyReference.cache
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.TournamentViewerForm.resources
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.Properties.Resources.resources
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.csproj.GenerateResource.cache
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.exe
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.pdb
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.CreatePrizeForm.resources
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.CreateTeamForm.resources
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.createTournmentForm.resources
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentTracker\TrackerUi\obj\Debug\TrackerUi.TournamentDashboardForm.resources
