@@ -49,15 +49,15 @@ namespace TrackerLibrary
 
             int placeNumberValue = 0;
             int.TryParse(placeNumber, out placeNumberValue);
-            placeNumber = placeNumberValue;
+            PlaceNumber = placeNumberValue;
 
             decimal prizeAmountValue = 0;
-            decimal.TryParse(prizeAmountValue, out prizeAmountValue);
-            prizeAmount = prizeAmountValue;
+            decimal.TryParse(prizeAmount, out prizeAmountValue);
+            PrizeAmount = prizeAmountValue;
 
             double prizePercentageValue = 0;
-            double.TryParse(prizePercentage, out prizeAmountValue);
-            prizePercentage = prizePercentageValue;
+            double.TryParse(prizePercentage, out prizePercentageValue);
+            PrizePercentage = prizePercentageValue;
         }
 
     }

@@ -25,7 +25,7 @@ namespace TrackerUi
                 PrizeModel model = new PrizeModel(placeNameValue.Text, placeNumberValue.Text,prizeAmountValue.Text, prizePercentageValue.Text);
 
                 model.PlaceName = placeNameValue.Text;
-                model.PlaceNumber = placeNumberValue.Text;
+                //model.PlaceNumber = placeNumberValue.Text;
 
                 foreach(IDataConnection db in GlobalConfig.Connections)
                 {
@@ -60,7 +60,7 @@ namespace TrackerUi
                 output = false;
             }
 
-            if (placeNumber < 1{
+            if (placeNumber < 1){
                 output = false;
             }
 
