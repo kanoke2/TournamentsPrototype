@@ -3,28 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrackerLibrary.DataAccess;
+using System.Configuration;
+
 
 namespace TrackerLibrary
 {
     public static class GlobalConfig
     {
-        public static List<IDataConnection> Connections { get; private set; } = new List<IDataConnection>();
+        public static IDataConnection Connection { get; private set; }
 
-        public static void InitializeConnections(bool database, bool textFiles)
+        public static void InitializeConnections(DatabaseType db)
         {
-            if (database)
+            if (db == DatabaseType.Sql )
             {
                 // TODO - Set up the SQL connector properly
                 SqlConnector sql = new SqlConnector();
-                Connections.Add(sql);
+                Connection = sql;
             }
 
-            if (textFiles)
+            else if (db == DatabaseType.TextFile)
             {
                 // TODO - Create the text connection
                 TextConnector text = new TextConnector();
-                Connections.Add(text);
+                Connection = text;
             }
+        }
+        
+        public static string CnnString(string name)
+        {
+            return ConfigurationManager.ConnectionStrings[name].ConnectionString;
         }
     }
 }

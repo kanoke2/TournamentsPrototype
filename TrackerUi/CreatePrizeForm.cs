@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TrackerLibrary;
+using TrackerLibrary.DataAccess;
+using TrackerLibrary.Models;
 
 namespace TrackerUi
 {
@@ -22,15 +24,30 @@ namespace TrackerUi
         {
             if (ValidateForm())
             {
-                PrizeModel model = new PrizeModel(placeNameValue.Text, placeNumberValue.Text,prizeAmountValue.Text, prizePercentageValue.Text);
+                PrizeModel model = new PrizeModel(
+                    placeNameValue.Text, 
+                    placeNumberValue.Text,
+                    prizeAmountValue.Text,
+                    prizePercentageValue.Text);
 
                 model.PlaceName = placeNameValue.Text;
                 //model.PlaceNumber = placeNumberValue.Text;
 
-                foreach(IDataConnection db in GlobalConfig.Connections)
-                {
-                    db.CreatePrize(model);
-                }
+                GlobalConfig.Connection.CreatePrize(model);
+                
+
+                prizeAmountValue.Text = "";
+                placeNumberValue.Text = "";
+                placeNameValue.Text = "0";
+                prizePercentageValue.Text = "0";
+
+
+
+            }
+
+            else
+            {
+                MessageBox.Show("This form has invalid information. Please check it and try again.");
             }
         }
 
@@ -60,11 +77,11 @@ namespace TrackerUi
                 output = false;
             }
 
-            if (placeNumber < 1){
+            if (placeNumber < 0){
                 output = false;
             }
 
-            if (placeNameValue.Text.Length == 0)
+            if (prizeAmountValue.Text.Length == 0)
             {
                 output = false;
             }
@@ -75,7 +92,7 @@ namespace TrackerUi
             bool prizeAmountValid = decimal.TryParse(prizeAmountValue.Text, out prizeAmount);
             bool prizePercentageValid = double.TryParse(prizePercentageValue.Text, out prizePercentage);
 
-            if (!prizeAmountValid || !prizeAmountValid)
+            if (!prizeAmountValid || !prizePercentageValid)
             {
                 output = false;
             }
@@ -98,6 +115,9 @@ namespace TrackerUi
 
         }
 
-        
+        private void orLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -4,3 +4,6 @@ C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Pro
 C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentsTracker\TrackerLibrary\bin\Debug\TrackerLibrary.pdb
 C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentsTracker\TrackerLibrary\obj\Debug\TrackerLibrary.dll
 C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentsTracker\TrackerLibrary\obj\Debug\TrackerLibrary.pdb
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentsTracker\TrackerLibrary\bin\Debug\Dapper.dll
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentsTracker\TrackerLibrary\bin\Debug\Dapper.xml
+C:\Users\Brandon\OneDrive - Michigan State University\Desktop\Programming\C#\Prototype Applications\TournamentsTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CopyComplete
